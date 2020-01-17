@@ -16,13 +16,13 @@ ClickOnClassic
     
 ScrollTillBongoClassic
     Maximize Browser Window
-    Sleep                       3
+    Sleep                       5
     Scroll Element Into View    xpath=//h3[contains(text(),'TOP Bongo Classic')]
     Sleep                       5
     
 PlayMovieOntoreOntore
     Click Element               xpath=//body//div[@id='root']//div//div//div//div//div//div//div[1]//div[1]//div[1]//div[2]//div[7]//h6[1]
-    Sleep                       20
+    Sleep                       25
     Click Element               xpath=//video[@id='vjs_video_3_html5_api']
     Sleep                       60
    
