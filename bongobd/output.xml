@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.8.0 on win32)" generated="20200117 21:06:56.050" rpa="false">
+<suite id="s1" name="Bongobd" source="C:\Users\Administrator\eclipse-workspace\bongobd">
+<suite id="s1-s1" name="Bongo" source="C:\Users\Administrator\eclipse-workspace\bongobd\bongo.robot">
+<kw name="Open Browser" library="SeleniumLibrary" type="setup">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${url}</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200117 21:06:56.486" level="INFO">Opening browser 'chrome' to base url 'https://www.bongobd.com/'.</msg>
+<status status="PASS" starttime="20200117 21:06:56.486" endtime="20200117 21:07:06.784"></status>
+</kw>
+<test id="s1-s1-t1" name="FreeContentPlay">
+<kw name="ClickOnClassic">
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//div[@class='MuiListItemText-root']//span[@class='MuiTypography-root MuiListItemText-primary MuiTypography-body1'][contains(text(),'Classic')]</arg>
+</arguments>
+<msg timestamp="20200117 21:07:06.789" level="INFO">Clicking element 'xpath=//div[@class='MuiListItemText-root']//span[@class='MuiTypography-root MuiListItemText-primary MuiTypography-body1'][contains(text(),'Classic')]'.</msg>
+<status status="PASS" starttime="20200117 21:07:06.789" endtime="20200117 21:07:06.968"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3</arg>
+</arguments>
+<msg timestamp="20200117 21:07:09.971" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20200117 21:07:06.968" endtime="20200117 21:07:09.972"></status>
+</kw>
+<status status="PASS" starttime="20200117 21:07:06.788" endtime="20200117 21:07:09.973"></status>
+</kw>
+<kw name="ScrollTillBongoClassic">
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200117 21:07:09.977" endtime="20200117 21:07:14.447"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3</arg>
+</arguments>
+<msg timestamp="20200117 21:07:17.449" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20200117 21:07:14.448" endtime="20200117 21:07:17.450"></status>
+</kw>
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>xpath=//h3[contains(text(),'TOP Bongo Classic')]</arg>
+</arguments>
+<status status="PASS" starttime="20200117 21:07:17.452" endtime="20200117 21:07:18.125"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3</arg>
+</arguments>
+<msg timestamp="20200117 21:07:21.130" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20200117 21:07:18.125" endtime="20200117 21:07:21.132"></status>
+</kw>
+<status status="PASS" starttime="20200117 21:07:09.974" endtime="20200117 21:07:21.134"></status>
+</kw>
+<kw name="PlayMovieOntoreOntore">
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//body//div[@id='root']//div//div//div//div//div//div//div[1]//div[1]//div[1]//div[2]//div[7]//h6[1]</arg>
+</arguments>
+<msg timestamp="20200117 21:07:21.139" level="INFO">Clicking element 'xpath=//body//div[@id='root']//div//div//div//div//div//div//div[1]//div[1]//div[1]//div[2]//div[7]//h6[1]'.</msg>
+<status status="PASS" starttime="20200117 21:07:21.136" endtime="20200117 21:07:21.690"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>15</arg>
+</arguments>
+<msg timestamp="20200117 21:07:36.694" level="INFO">Slept 15 seconds</msg>
+<status status="PASS" starttime="20200117 21:07:21.691" endtime="20200117 21:07:36.695"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//video[@id='vjs_video_3_html5_api']</arg>
+</arguments>
+<msg timestamp="20200117 21:07:36.699" level="INFO">Clicking element 'xpath=//video[@id='vjs_video_3_html5_api']'.</msg>
+<status status="PASS" starttime="20200117 21:07:36.697" endtime="20200117 21:07:42.052"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>60</arg>
+</arguments>
+<msg timestamp="20200117 21:08:42.058" level="INFO">Slept 1 minute</msg>
+<status status="PASS" starttime="20200117 21:07:42.052" endtime="20200117 21:08:42.058"></status>
+</kw>
+<status status="PASS" starttime="20200117 21:07:21.135" endtime="20200117 21:08:42.059"></status>
+</kw>
+<status status="PASS" starttime="20200117 21:07:06.785" endtime="20200117 21:08:42.060" critical="yes"></status>
+</test>
+<kw name="Close Browser" library="SeleniumLibrary" type="teardown">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200117 21:08:42.062" endtime="20200117 21:08:44.243"></status>
+</kw>
+<status status="PASS" starttime="20200117 21:06:56.158" endtime="20200117 21:08:44.244"></status>
+</suite>
+<status status="PASS" starttime="20200117 21:06:56.108" endtime="20200117 21:08:44.259"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Bongobd">Bongobd</stat>
+<stat pass="1" fail="0" id="s1-s1" name="Bongo">Bongobd.Bongo</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
