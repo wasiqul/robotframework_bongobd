@@ -17,6 +17,8 @@ ClickOnClassic
 ScrollTillBongoClassic
     Maximize Browser Window
     Sleep                       5
+    Scroll Element Into View    xpath=//h3[contains(text(),'Most Watched')]
+    Sleep                       5
     Scroll Element Into View    xpath=//h3[contains(text(),'TOP Bongo Classic')]
     Sleep                       5
     
