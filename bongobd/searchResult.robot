@@ -1,16 +1,16 @@
 *** Settings ***
-Library                              SeleniumLibrary 
+Library               SeleniumLibrary 
 
 
 *** Variables ***
 
-${movielink}   //h4[contains(text(),'Ontore Ontore')]
-${skipadd}     //body/div[@id='root']/div[1]/div[1]/div[1]/div[3]
+${movielink}          //h4[contains(text(),'Ontore Ontore')]
+${vid}                //body/div[@id='root']/div[1]/div[1]/div[1]/div[3]
 
 
 *** Keywords ***
 Play searched movie
     Click Element    ${movielink}  
-    Sleep    20
-    Click Element    ${skipadd}    
-    Sleep    80
+    Sleep            95
+    Click Element    ${vid}
+    
